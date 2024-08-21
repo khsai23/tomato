@@ -6,7 +6,7 @@ export const StoredContext = createContext(null)
 const StoredContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url="http://localhost:4000";
+    const url="https://tomato-backend-i4e2.onrender.com";
     const [token,setToken]=useState("");
     const [food_list,setFoodList]=useState([])
 
